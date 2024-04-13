@@ -9,21 +9,15 @@ public class StringWordsCount {
 		System.out.println("Enter A string ");
 		String s=sc.nextLine();
 	int cnt=0;
-//		StringTokenizer str= new StringTokenizer(s);
-//		while(str.hasMoreTokens()) {
-//			System.out.println(str.nextToken());
-//			cnt++;
-//		}
-		System.out.println(cnt);
-		s.trim();
-		String  arr[]=s.split(" ");
-		for(int i=0;i<arr.length;i++) {
-			if(arr[i].length()>0) {
-				cnt++;
-			}
+		/*StringTokenizer str= new StringTokenizer(s);
+		while(str.hasMoreTokens()) {
+			System.out.println(str.nextToken());
+			cnt++;
 		}
-		System.out.println(arr);
-//		
+		System.out.println(cnt);*/
+		s.trim();
+		int  arr=s.split(" ");
+		System.out.println(arr);	
 
 	}
 
