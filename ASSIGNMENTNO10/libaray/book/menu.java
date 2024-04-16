@@ -1,0 +1,5 @@
+package com.libaray.book;
+
+public enum menu {
+	EXIT,ACCEPT_BOOOK_DETAILS,DISPLAY_ALL_BOOKS,SORT_BOOK_BY_CATEGORY,SORT_BY_AUTHOR,FIND_BOOK_BY_ID
+}
